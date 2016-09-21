@@ -1,0 +1,13 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "6.2",
+        "nesbot/carbon": "1.21",
+        "league/plates": "3.*",
+        "league/container": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Idealware\\": "app/"
+        }
+    }
+}
