@@ -1,12 +1,9 @@
 <?php
-
-$s = microtime();
-
 require_once 'vendor/autoload.php';
 
 $container = new \pnoLeague\Container\Container();
-echo \pnoCarbon\pnoCarbon::now()->dayOfWeek;
 $client = new \pnoGuzzleHttp\Client();
+$carbon = \pnoCarbon\pnoCarbon::now();
 $engine = new \pnoLeague\Plates\Engine();
 
 // we are loading google just to give ourselves a head start
