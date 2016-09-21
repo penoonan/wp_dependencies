@@ -12,7 +12,7 @@ Clone this project, navigate to the root directory and type the command `bash wp
 
 Your unique string should contain no spaces or special characters - it's going into filenames and php namespaces.
 
-So yeah, once you're done that, just sit back and watch the magic happen. Woo woo.
+So yeah, once you've done that, just sit back and watch the magic happen. Woo woo.
 
 Play around in `index.php`. It presumes the prefix `pno`. Change that to whatever you used. Run a little `php -S localhost:8080` and navigate there to see the fruits of your labor.
 
