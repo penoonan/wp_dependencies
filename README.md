@@ -1,7 +1,7 @@
 #Uniqify Some 3rd Party PHP libs
 
 ##The problem
-Wordpress plugins can't safely use 3rd party libraries from Composer because the versions of the libraries they use could conflict with version other plugins are using. [Here, see](http://wordpress.stackexchange.com/a/175394)
+Wordpress plugins can't safely use 3rd party libraries from Composer because the versions of the libraries they use could conflict with the versions _other_ plugins are using. [Here, see](http://wordpress.stackexchange.com/a/175394)
  
 ##The solution
 Create a shell script to prefix all the top level namespaces with a unique string of your choosing. A derivation of your plugin name, perhaps?
