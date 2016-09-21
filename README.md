@@ -8,7 +8,7 @@ Create a shell script to prefix all the top level namespaces with a unique strin
 
 This repo mostly serves as a proof of concept. It's dirty as hell both in spirit and in execution. It won't work on all operating systems. I'm using a Mac with Bash 4.4. I had to install perl's `rename` command separately. Kinda bullshit IMO but there you have it.
 
-Clone this project, navigate to the root directory and type the command `bash wp_dependencies.sh [MyUniqueString]`
+Clone this project, navigate to the root directory and run the command `bash wp_dependencies.sh [MyUniqueString]`
 
 Your unique string should contain no spaces or special characters - it's going into filenames and php namespaces.
 
