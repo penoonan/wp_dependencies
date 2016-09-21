@@ -16,4 +16,6 @@ So yeah, once you've done that, just sit back and watch the magic happen. Woo wo
 
 Play around in `index.php`. It presumes the prefix `pno`. Change that to whatever you used. Run a little `php -S localhost:8080` and navigate there to see the fruits of your labor.
 
+Oh yeah - if you want to add new dependencies, you need to add their top level namespace to the `namespaces` array in `wp_dependencies.sh`;
+
 Thanks for reading. Keep it sleazy.

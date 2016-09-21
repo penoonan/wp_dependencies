@@ -9,7 +9,7 @@ composer update --no-dev
 # to prevent namespace collisions with other plugins
 
 unique=$1
-namespaces=("League" "Doctrine" "Interop" "GuzzleHttp" "Carbon" "Psr" "Symfony")
+namespaces=("League" "Interop" "GuzzleHttp" "Carbon" "Psr" "Symfony")
 for old in ${namespaces[@]}
 do
     new=$unique$old
